@@ -38,7 +38,6 @@ class SupabaseConnector {
             System.out.println("🚫 Connection or SQL operation failed:");
             e.printStackTrace();
         }
-
+        System.out.println("Done");
     }
-
 }
